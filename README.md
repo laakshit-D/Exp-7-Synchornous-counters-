@@ -4,7 +4,6 @@ To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
-
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
@@ -50,9 +49,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Laakshit D
 RegisterNumber: 212222230071
 */
-```
-#### UP COUNTER
-```
+i) UP COUNTER
 module Up(clk,A);
 input clk;
 output reg [3:0]A;
@@ -65,8 +62,8 @@ begin
 end
 endmodule
 ```
-#### DOWN COUNTER
 ```
+ii) DOWN COUNTER
 module Counters(clk,A);
 input clk;
 output reg [3:0]A;
@@ -96,7 +93,6 @@ endmodule
 #### DOWN COUNTER
 
 ![image](https://github.com/laakshit-D/Exp-7-Synchornous-counters-/assets/119559976/073e350d-08de-40de-ba64-cf8dd199c87d)
-
 
 ### TRUTH TABLE 
 #### UP COUNTER
